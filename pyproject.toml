@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gembot"
+version = "0.1.0"
+description = ""
+authors = ["山不说 <13034020+yiningv@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+streamlit = "^1.44.1"
+openai = "^1.70.0"
+plotly = "^6.0.1"
+schedule = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
